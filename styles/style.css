@@ -1,0 +1,237 @@
+body {
+    font-family: "Trirong", 'Arial', sans-serif;
+    padding: 0;
+    background: fixed;
+    box-shadow: gray;
+    text-shadow: gray;
+}
+
+.intro-section {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.pinimg.com/736x/7d/59/c6/7d59c6669c9dbaa7a747667f7a1a87a2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    box-shadow: 10px 10px 10px rgb(56, 54, 54);
+    border-radius: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+
+}
+
+.intro-text {
+    color: #fff;
+}
+
+.intro-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Landscape mode */
+@media (min-width: 800px) {
+    .intro-section {
+        padding: 80px 20px;
+    }
+
+    .profile-container {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .profile-picture {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}
+
+/* Portrait mode */
+@media (max-width: 800px) {
+    .intro-section {
+        padding: 80px 20px;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-picture {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+.contact-button {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to set the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.education-section,
+.projects-section,
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20% ;
+   
+}
+
+.project-card {
+    width: 200px;
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s, z-index 0.5s, box-shadow 0.5s;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 10px; 
+    box-shadow: 10px 10px 10px rgb(56, 54, 54);
+}
+
+.project-card:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    box-shadow: 10px 10px 10px rgb(56, 54, 54);
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 10px;
+}
+
+.visit-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+}
+
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.duration{
+    color: gray;
+    font-size: smaller;
+}
+
+body{
+    background-image: url('bgimg.jpg');
+}
+
+.navbar {
+    background-image: url('https://i.pinimg.com/736x/7d/59/c6/7d59c6669c9dbaa7a747667f7a1a87a2.jpg');
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.language-experience {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.language-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.language-name {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the progress bar */
+    background-color: #fff; /* Set the background color of the empty part to white */
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #000;
+}

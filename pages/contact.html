@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Akashdeep Singh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<style>
+  body {
+    font-family: "Trirong", 'Open Sans', sans-serif; /* Use the Google Font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-btn {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 8px 12px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(56, 54, 54);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .contact-btn i {
+    margin-right: 5px;
+  }
+
+  .contact-btn:hover {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 800px) {
+    .contact-card {
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-pic {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .contact-card {
+      align-items: center;
+    }
+  }
+</style>
+
+<body>
+  <div class="contact-card">
+    <img class="profile-pic" src="dp.png" alt="Akashdeep Singh">
+    <div>
+      <h1>Akashdeep Singh</h1>
+      <p class="deg">Front End Web Developer</p>
+      <p>Front End Web Developer With Leadership, Teamwork, and Adaptive Learning Qualities.</p>
+      <p class="contact-info">
+        <div class="contact-buttons">
+          <a href="mailto:asingh16@una.edu" class="contact-btn">
+            <i class="fas fa-envelope"></i>Email
+          </a>
+          <a href="tel:+12564438074" class="contact-btn">
+            <i class="fas fa-phone"></i>Phone
+          </a>
+          <a href="https://github.com/AkashdeepSingh0047" class="contact-btn">
+            <i class="fab fa-github"></i>GitHub
+          </a>
+        </div>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

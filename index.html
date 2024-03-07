@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="scripts/script.js">
+    
+    <title>Your Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#lang">Language Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro" class="intro-section">
+        <div class="profile-container">
+            <img class="profile-picture" src="pages/dp.png" alt="dp">
+            <div class="intro-text">
+                <h1>Akashdeep Singh</h1>
+                <p>Web Developer</p>
+                <p>Front End Web Developer With Leadership, Teamwork, and Adaptive Learning Qualities.</p>
+            </div>
+            <a href="pages/contact.html" class="contact-button">Contact Me</a>
+        </div>
+    </section>
+
+    <section id= "lang" class="language-experience">
+        <h2 class="section-title">Language Experience</h2>
+
+        <div class="language-card">
+            <p class="language-name">HTML</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 95%;"></div>
+            </div>
+        </div>
+
+        <div class="language-card">
+            <p class="language-name">CSS</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 98%;"></div>
+            </div>
+        </div>
+
+        <div class="language-card">
+            <p class="language-name">JavaScript</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+            </div>
+        </div>
+
+        <div class="language-card">
+            <p class="language-name">Python</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <h2>Education</h2>
+        <!-- Add your educational background details here -->
+        <h3>High School:</h3>
+            <p>Gilly Mundy Memorial Community School, Haryana, India</p>
+            <p class="duration">06/2017 - 05/2018</p>
+
+        <h3>Senior Secondary Education PCM:</h3>
+            <p>Gilly Mundy Memorial Community School, Haryana, India</p>
+            <p class="duration">06/2019 - 05/2020</p>
+
+        <h3>BE-CSE Computer Science:</h3>
+            <p>Chandigarh University, Mohali, India</p>
+            <p class="duration">07/2020 - 05/2022</p>
+
+        <h3>Bachelors Of Science Computer And <br> Information Sciences:</h3>
+            <p>University of North Alabama, Florence, AL</p>
+            <p class="duration">07/2022 - 05/2025</p>    
+        
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-cards-container">
+            <!-- Project 1 -->
+            <div class="project-card" onmouseover="stopShuffling()" onmouseout="startShuffling()">
+                <img src="https://t4.ftcdn.net/jpg/04/60/03/13/240_F_460031310_ObbCLA1tKrqjsHa7je6G6BSa7iAYBANP.jpg" alt="Project 1 Image">
+                <div class="project-info">
+                    <h3>Dodge The Dog</h3>
+                    <p>Triger the dog and see what changes.</p>
+                    <a href="https://github.com/AkashdeepSingh0047/Chrlie-lab-By-Akashdeep?tab=readme-ov-file" class="visit-button">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" onmouseover="stopShuffling()" onmouseout="startShuffling()">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9JPiEo2R-wQ7dJlPGmqTEj-XucirncokKQV1WovE4tOMZM5MSeoDRITpnKtJ3PqayK8Q&usqp=CAU" alt="Project 2 Image">
+                <div class="project-info">
+                    <h3>Name Facts</h3>
+                    <p>Enter your name to know cool facts.</p>
+                    <a href="https://github.com/AkashdeepSingh0047/psychic-delta" class="visit-button">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" onmouseover="stopShuffling()" onmouseout="startShuffling()">
+                <img src="data:image/png;base64,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" alt="Project 3 Image">
+                <div class="project-info">
+                    <h3>The Echo Lab</h3>
+                    <p>Hybreed by combining both projects.</p>
+                    <a href="https://github.com/AkashdeepSingh0047/Echo-By-Akashdeep-Singh" class="visit-button">Visit Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
